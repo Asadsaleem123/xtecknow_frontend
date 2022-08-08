@@ -1,0 +1,151 @@
+{
+    "home":"مسكن",
+    "about":"حول",
+    "achievement":"إنجاز",
+    "works":"يعمل",
+    "contact":"اتصل",
+    "description":" التطوير من برمجة التصميم الجرافيكي والتسويق إلى التطوير الكامل للنظام الخاص بك ، يعتني حلنا بوظائف إدارة التكنولوجيا حتى تتمكن من التركيز على عملك الأساسي ونضمن تقديم أقصى قيمة لعملائنا بأسعار معقولة نحن دار البرمجيات ، نقدم خدمات للمؤسسات في جميع أنحاء العالم وفقًا لاحتياجاتهم. نحن نهتم بكل جانب من جوانب النظام",
+    "our_buisness":"الأنشطة التجارية لدينا والخدمات المهنية",
+    "we_proud":"نحن فخورون بأن نكون جزءًا من العديد من المشاريع المخصصة والتقنيات المنشورة وفقًا لتطوير البرامج:",
+    "our_sys_1":"نظام الخدمات اللوجستية SAAS",
+    "our_sys_2":"التجارة الإلكترونية",
+    "our_sys_3":"الإضافات المخصصة (Wordpress-Opencart-Magento-Shopify)",
+    "our_sys_4":"CRM",
+    "our_sys_5":"HRM",
+    "our_sys_6":"مشاريع الانظمة",
+    "our_sys_7":"نظام إدارة المشاريع",
+    "our_sys_8":"ظام التسويق عبر البريد الإلكتروني",
+    "mission":"بعثة",
+    "mission_1":"نساعدك على بناء حلمك الرقمي من خلال التميز والابتكارات",
+    "vision":"رؤية    ",
+    "vision_1":"مساعدة الأفراد والشركات من خلال تطوير وتقديم أفضل الحلول لهم",
+    "client_satisfaction":"رضا العملاء",
+    "web_dev":"تطوير الشبكة",
+    "mobile_dev":"تطوير تطبيقات الجوال",
+    "blockchain":"بلوكشين",
+    "graphic_des":"التصميم الجرافيكي",
+    "seo":"SEO",
+    "desktop_app":"تطبيقات سطح المكتب",
+    "my_works":"تحقق من بعض أعمالي",
+    "name":"اسم",
+    "email":"البريد الإلكتروني",
+    "subject":"موضوعات",
+    "message":"رسالة",
+    "add_phone":"العنوان والهاتف",
+    "submit":"يُقدِّم",
+    "get_in_touch":"ابقى على تواصل",
+    "street":"المكتب الرئيسي: حي الزهراء",
+    "city":"جدة",
+    "state":"منطقة مكة المكرمة ، المملكة العربية السعودية",
+    "Zip":"217234",
+    "main": {
+        "name":"Xtecknow",
+        "description":"We are the Software House. Providing services to enterprises across the world as per their needs. We take care of every aspect of system development from programming, graphic design and marketing to complete development of your system. Our solutions take care of your technology management functions. So that you can focus on your core business.We assure to deliver maximum value to our clients with an affordable prices.",
+        "contactmessage":"ابقى على تواصل",
+        "email": "info@xtecknow.com",
+        "phone": "+966590000567", 
+        "address":{
+          "street":"المكتب الرئيسي: حي الزهراء",
+          "city":"جدة",
+          "state":"منطقة مكة المكرمة ، المملكة العربية السعودية",
+          "zip": "217234"
+        }, 
+        "social":[
+          {
+            "name":"facebook",
+            "url":"https://facebook.com",
+            "className":"fa fa-facebook"
+          },
+          {
+            "name":"twitter",
+            "url":"http://twitter.com",
+            "className":"fa fa-twitter"
+          },
+          {
+            "name":"linkedin",
+            "url":"https://www.linkedin.com/",
+            "className":"fa fa-linkedin"
+          },
+          {
+            "name":"instagram",
+            "url":"http://instagram.com/",
+            "className":"fa fa-instagram"
+          }
+        ]
+      },
+      "resume":{  
+        "skillss":[
+          {
+            "name_1":"تطوير الويب",
+            "level_1":"99%",
+            
+                "name_2":"تطوير تطبيقات الجوال",
+                "level_2":"90%",
+              
+                "name_3":"بلوكشين",
+                "level_3":"80%",
+             
+                "name_4":"تصميم الجرافيك",
+                "level_4":"90%",
+            
+                "name_5":"SEO",
+                "level_5":"80%",
+            
+                "name_6":"تطبيقات سطح المكتب",
+                "level_6":"80%"
+              }
+            ]
+        
+          },
+         
+      "portfolio":{
+        "projects": [
+          {
+            "title":"مطبخ سيدة",
+            "category":"Ecommerce Platfom",
+            "image":"ladyKitchen.png"
+          },
+          {
+            "title":"إعادة الملء e-priscription",
+            "category":"Medical online system",
+            "image":"refill.png"
+          },
+          {
+            "title":"مستشار الأسهم",
+            "category":"Stocks Market updates & advisory",
+            "image":"stocksAdvisor.png"
+          },
+          {
+            "title":"بوابة التدريس",
+            "category":"e-Learning & e-labs",
+            "image":"teachingly.png"
+          },
+          {
+            "title":"فيتاليا فيب",
+            "category":"Ecommerce Platfom",
+            "image":"vitalia.png"
+          },
+          {
+            "title":"نظام Xturbo ERP",
+            "category":"Complete last-mile & ERP System",
+            "image":"xturbo.png"
+          },
+          {
+            "title":"الحق العقاري",
+            "category":"Complete real estate system",
+            "image":"rightdeed.png"
+          },
+          {
+            "title":"مطاحن المهارة",
+            "category":"Online schooling portal",
+            "image":"mills.png"
+          }
+           
+        ]
+      }
+    
+
+
+
+    
+}

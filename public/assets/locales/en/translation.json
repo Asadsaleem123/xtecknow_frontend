@@ -1,0 +1,159 @@
+{
+    "home":"Home",
+    "about":"About",
+    "achievement":"Achievement",
+    "works":"Works",
+    "contact":"Contact",
+    "description":" we are the software house.providing services to enterprises  across the world as per their needs.we take care of every aspect of system development from programming graphic design and marketing to complete development of your system our solution take care of technology management functions  so that you can focus on your core buisness we assure to deliver maximum value for our clients  with an affordable prices", 
+    "our_buisness":"Our Business Activities and Professional Service",
+    "we_proud":"We are proud to be a part of many customized projects and deployed technologies as per Software development :",
+    "our_sys_1":"SAAS Logistics System",
+    "our_sys_2":"E-commerce",
+    "our_sys_3":"Customized Plugins (Wordpress-Opencart-Magento-Shopify)",
+    "our_sys_4":"CRM",
+    "our_sys_5":"HRM",
+    "our_sys_6":"Enterprise Systems",
+    "our_sys_7":"Project Management System",
+    "our_sys_8":"Email Marketing System",
+    "mission":"Mission",
+    "mission_1":"Help you to build your digital dream through excellence and innovations",
+    "vision":"Vision",
+    "vision_1":"Assisting individuals and companies by developing and providing best solutions for them",
+    "client_satisfaction":"Client satisfaction",
+    "web_dev":"WEB DEVELOPMENT",
+    "mobile_dev":"MOBILE APP DEVELOPMENT",
+    "blockchain":"BLOCKCHAIN",
+    "graphic_des":"GRAPHIC DESIGNING",
+    "seo":"SEO",
+    "desktop_app":"DESKTOP APPLICATION",
+    "my_works":"Check Out some of my works",
+    "name":"Name",
+    "email":"Email",
+    "subject":"Subject",
+    "message":"Message",
+    "add_phone":"Address and Phone",
+    "submit":"Submit",
+    "get_in_touch":"Get in Touch",
+    "street":"Main Office: Az Zahraa District",
+    "city":"Jeddah,",
+    "state":"Makkah region,Saudi Arabia",
+    "Zip":"217234",
+
+    "main": {
+        "name":"Xtecknow",
+        "description":"We are the Software House. Providing services to enterprises across the world as per their needs. We take care of every aspect of system development from programming, graphic design and marketing to complete development of your system. Our solutions take care of your technology management functions. So that you can focus on your core business.We assure to deliver maximum value to our clients with an affordable prices.",
+        "image":"app_dev.gif",
+        "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+        "contactmessage":"Get In Touch",
+        "email": "info@xtecknow.com",
+        "phone": "+966590000567", 
+        "address":{
+          "street":"Main Office: Az Zahraa District",
+          "city":"Jeddah",
+          "state":"Makkah Region, Saudi Arabia",
+          "zip": "217234"
+        }, 
+        "social":[
+          {
+            "name":"facebook",
+            "url":"https://facebook.com",
+            "className":"fa fa-facebook"
+          },
+          {
+            "name":"twitter",
+            "url":"http://twitter.com",
+            "className":"fa fa-twitter"
+          },
+          {
+            "name":"linkedin",
+            "url":"https://www.linkedin.com/",
+            "className":"fa fa-linkedin"
+          },
+          {
+            "name":"instagram",
+            "url":"http://instagram.com/",
+            "className":"fa fa-instagram"
+          }
+        ]
+      },
+      "resume":{  
+        "skillss":[
+            {
+              "name_1":"Web development",
+              "level_1":"99%",
+              
+                  "name_2":"MOBILE APP DEVELOPMENT ",
+                  "level_2":"90%",
+                
+                  "name_3":"BLOCKCHAIN",
+                  "level_3":"80%",
+               
+                  "name_4":"GRAPHIC DESIGNING ",
+                  "level_4":"90%",
+              
+                  "name_5":"SEO",
+                  "level_5":"80%",
+              
+                  "name_6":"DESKTOP APPLICATION",
+                  "level_6":"80%"
+                }
+              ]
+          
+            },
+      "portfolio":{
+        "projects": [
+          {
+            "title":"Lady Kitchen",
+            "category":"Ecommerce Platfom",
+            "image":"ladyKitchen.png"
+          },
+          {
+            "title":"Refill e-priscription",
+            "category":"Medical online system",
+            "image":"refill.png"
+          },
+          {
+            "title":"Stocks Advisor",
+            "category":"Stocks Market updates & advisory",
+            "image":"stocksAdvisor.png"
+          },
+          {
+            "title":"Teaching Portal",
+            "category":"e-Learning & e-labs",
+            "image":"teachingly.png"
+          },
+          {
+            "title":"Vitalia Vip",
+            "category":"Ecommerce Platfom",
+            "image":"vitalia.png"
+          },
+          {
+            "title":"Xturbo ERP System",
+            "category":"Complete last-mile & ERP System",
+            "image":"xturbo.png"
+          },
+          {
+            "title":"Right Deed Real Estate",
+            "category":"Complete real estate system",
+            "image":"rightdeed.png"
+          },
+          {
+            "title":"Skill Mills",
+            "category":"Online schooling portal",
+            "image":"mills.png"
+          }
+           
+        ]
+      }
+    
+    
+
+}
+
+    
+       
+    
+   
+
+    
+

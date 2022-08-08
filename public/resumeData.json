@@ -1,0 +1,112 @@
+{
+  "main": {
+    "name":"Xtecknow",
+    "description":"We are the Software House. Providing services to enterprises across the world as per their needs. We take care of every aspect of system development from programming, graphic design and marketing to complete development of your system. Our solutions take care of your technology management functions. So that you can focus on your core business.We assure to deliver maximum value to our clients with an affordable prices.",
+    "image":"app_dev.gif",
+    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage":"Get In Touch",
+    "email": "info@xtecknow.com",
+    "phone": "+966590000567", 
+    "address":{
+      "street":"Main Office: Az Zahraa District",
+      "city":"Jeddah",
+      "state":"Makkah Region, Saudi Arabia",
+      "zip": "217234"
+    }, 
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://facebook.com",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/",
+        "className":"fa fa-instagram"
+      }
+    ]
+  },
+  "resume":{  
+    "skills":[
+      {
+        "name":"Web Development",
+        "level":"99%"
+      },
+      {
+        "name":"Mobile App Development",
+        "level":"90%"
+      },
+      {
+        "name":"Blockchain",
+        "level":"80%"
+      },
+      {
+        "name":"Graphic Designing",
+        "level":"90%"
+      },
+      {
+        "name":"SEO",
+        "level":"80%"
+      },
+      {
+        "name":"Desktop Application",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Lady Kitchen",
+        "category":"Ecommerce Platfom",
+        "image":"ladyKitchen.png"
+      },
+      {
+        "title":"Refill e-priscription",
+        "category":"Medical online system",
+        "image":"refill.png"
+      },
+      {
+        "title":"Stocks Advisor",
+        "category":"Stocks Market updates & advisory",
+        "image":"stocksAdvisor.png"
+      },
+      {
+        "title":"Teaching Portal",
+        "category":"e-Learning & e-labs",
+        "image":"teachingly.png"
+      },
+      {
+        "title":"Vitalia Vip",
+        "category":"Ecommerce Platfom",
+        "image":"vitalia.png"
+      },
+      {
+        "title":"Xturbo ERP System",
+        "category":"Complete last-mile & ERP System",
+        "image":"xturbo.png"
+      },
+      {
+        "title":"Right Deed Real Estate",
+        "category":"Complete real estate system",
+        "image":"rightdeed.png"
+      },
+      {
+        "title":"Skill Mills",
+        "category":"Online schooling portal",
+        "image":"mills.png"
+      }
+       
+    ]
+  }
+}
