@@ -8,6 +8,9 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
+import Signup from "./Components/signup";
+import Login from "./Components/login";
+import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
 
 class App extends Component {
   constructor(props) {
@@ -49,9 +52,26 @@ class App extends Component {
         <Portfolio data={this.state.resumeData.portfolio} />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
+       
+          <Routes>
+            <Route exact path="/sigin"element={<Signup/>}/>
+            <Route exact path="/login"element={<Login/>}/>
+          </Routes>
+      
+      
+        
+        
       </div>
-    );
+   
+        
+         
+   );
+      }
+      
+  
+    
+   
   }
-}
+
 
 export default App;

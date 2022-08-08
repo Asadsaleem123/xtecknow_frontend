@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import i18next from "i18next";
+import { withTranslation, WithTranslation } from "react-i18next";
 
 class About extends Component {
   render() {
@@ -10,6 +12,7 @@ class About extends Component {
     const app_pic = "images/mobile_dev.gif";
     const seo_pic = "images/seo_dev.gif";
     const bio = this.props.data.bio; 
+    const {t}=this.props;
 
     return (
       <section id="about">
@@ -33,20 +36,20 @@ class About extends Component {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>Our Business Activities and Professional Services</h2> 
-              <p> We are proud to be a part of many customized projects and deployed technologies as per Software development : </p>
+              <h2>{t('our_buisness')}</h2> 
+              <p> {t('we_proud')}</p>
               <div className="row">
                 <div >
                
                   <h2 >
-                    <li>SAAS Logistics System </li>
-                    <li>E-Commerce </li>
-                    <li>Customized Plugins (Wordpress-Opencart-Magento-Shopify)</li>
-                    <li>CRM</li>
-                    <li>HRM</li>
-                    <li>Enterprise Systems</li>
-                    <li>Project Management System</li>
-                    <li>Email Marketing System</li> 
+                    <li>{t('our_sys_1')}</li>
+                    <li>{t('our_sys_2')}</li>
+                    <li>{t('our_sys_3')}</li>
+                    <li>{t('our_sys_4')}</li>
+                    <li>{t('our_sys_5')}/</li>
+                    <li>{t('our_sys_6')}</li>
+                    <li>{t('our_sys_7')}</li>
+                    <li>{t('our_sys_8')}</li> 
                   </h2>
                 </div> 
               </div>
@@ -58,4 +61,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default withTranslation() (About);

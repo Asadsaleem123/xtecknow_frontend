@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
+import {withTranslation} from "react-i18next";
+
 
 class Contact extends Component {
   render() {
@@ -12,13 +14,14 @@ class Contact extends Component {
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
+    const {t}=this.props;
 
     return (
       <section id="contact">
         <Fade bottom duration={1000}>
           <div className="row section-head"> 
             <div className="ten columns">
-              <h1 className="lead">{message}</h1>
+              <h1 className="lead">{t('get_in_touch')}</h1>
             </div>
           </div>
         </Fade>
@@ -30,7 +33,7 @@ class Contact extends Component {
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
-                      Name <span className="required">*</span>
+                      {t('name')} <span className="required">*</span>
                     </label>
                     <input
                       type="text"
@@ -44,7 +47,7 @@ class Contact extends Component {
 
                   <div>
                     <label htmlFor="contactEmail">
-                      Email <span className="required">*</span>
+                      {t('email')} <span className="required">*</span>
                     </label>
                     <input
                       type="text"
@@ -57,7 +60,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <label htmlFor="contactSubject">Subject</label>
+                    <label htmlFor="contactSubject">{t('subject')}</label>
                     <input
                       type="text"
                       defaultValue=""
@@ -70,7 +73,7 @@ class Contact extends Component {
 
                   <div>
                     <label htmlFor="contactMessage">
-                      Message <span className="required">*</span>
+                      {t('message')} <span className="required">*</span>
                     </label>
                     <textarea
                       cols="50"
@@ -81,7 +84,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit">{t('submit')}</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
@@ -100,12 +103,12 @@ class Contact extends Component {
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
+                <h4>{t('add_phone')}</h4>
                 <p className="address">
                   {name}
                   <br />
-                  {street} <br />
-                  {city}, {state} {zip}
+                  {t('street')} <br />
+                  {t('city')}, {t('state')} {zip}
                   <br />
                   <span>{phone}</span>
                 </p>
@@ -120,4 +123,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default withTranslation() (Contact);

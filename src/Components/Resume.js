@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
+import {withTranslation} from "react-i18next";
+import i18next, { t } from "i18next";
 
 class Resume extends Component {
   getRandomColor() {
@@ -18,12 +20,15 @@ class Resume extends Component {
     
  
     const skills = this.props.data.skills.map((skills) => {
+     
+    
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + skills.name.toLowerCase();
       const width = skills.level;
+      const {t}=this.props;
 
       return (
-        <li key={skills.name}>
+        <li key={(skills.name)}>
           <span style={{ width, backgroundColor }} className={className}></span>
           <em>{skills.name}</em>
         </li>
@@ -36,13 +41,13 @@ class Resume extends Component {
           <div className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>Mission</span>
+                <span>{t('mission')}</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">
               <div className="row item">
-                <h3 className="twelve columns">Help you to build your digital dream through excellence and innovations</h3>
+                <h3 className="twelve columns">{t('mission_1')}</h3>
               </div>
             </div>
           </div>
@@ -52,11 +57,11 @@ class Resume extends Component {
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Vision</span>
+                <span>{t('vision')}</span>
               </h1>
             </div>
 
-            <h3 className="nine columns main-col">Assisting individuals and companies by developing and providing best solutions for them</h3>
+            <h3 className="nine columns main-col">{t('vision_1')}</h3>
           </div>
         </Slide>
 
@@ -64,7 +69,7 @@ class Resume extends Component {
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
-                <span>Client Satisfaction</span>
+                <span>{t('client_satisfaction')}</span>
               </h1>
             </div>
 
@@ -82,4 +87,4 @@ class Resume extends Component {
   }
 }
 
-export default Resume;
+export default withTranslation() (Resume);
